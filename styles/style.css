@@ -81,4 +81,7 @@ img.sneak-peak-img {
 .days-list > li > ul {
   font-size: 1em;
   font-weight: normal;
+  padding-left: 1em;
+}
+.days-list > li > ul > li{
 }
