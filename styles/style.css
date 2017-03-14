@@ -1,0 +1,91 @@
+body {
+  background: #f5f7f2;
+}
+h1, h2, h3 {
+  /*font-family: Copperplate, "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-family: 'Special Elite', cursive;
+  margin: 2em 0;
+}
+h1, h2 {
+  text-align: center;
+}
+h3 {
+  margin-bottom: 0em;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar {
+  text-align: center;
+}
+.nav > li {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.6em;
+  padding-top: 5px;
+}
+.navbar-default {
+  background: #eef1eb;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #000;
+}
+h1 {
+  font-size: 4em;
+  margin: 1em;
+}
+
+p {
+  font-size: 2em;
+  margin: 2em;
+  text-align: justify;
+  /*font-family: 'Lobster', cursive;*/
+  /*font-family: 'Cinzel', serif;*/
+  font-family: 'Architects Daughter', cursive;
+  /*font-family: 'Josefin Slab', serif;*/
+  /*font-family: 'Alegreya Sans', sans-serif;*/
+  /*font-family: 'Special Elite', cursive;*/
+  /*font-family: 'Heebo', sans-serif;*/
+}
+.handwritten {
+  font-family: 'Architects Daughter', cursive;
+}
+p.small {
+  font-size: 130%;
+  margin-top: 1em;
+}
+.reception-img {
+  width: 100%;
+
+}
+
+img {
+  border: 1px solid rgba(0, 0, 0, 0.78);
+  border-radius: 3px;
+
+}
+
+img.main {
+  max-width: 100%;
+}
+
+img.sneak-peak-img {
+  width: 300px;
+}
+
+.days-list > li {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.5em;
+  font-family: 'Special Elite', cursive;
+}
+
+.days-list > li > ul {
+  font-size: 1em;
+  font-weight: normal;
+}
