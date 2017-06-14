@@ -44,7 +44,7 @@ h1 {
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.8em;
   margin: 2em;
   text-align: justify;
   font-family: 'Architects Daughter', "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -56,9 +56,22 @@ p.small {
   font-size: 130%;
   margin-top: 1em;
 }
+ul.accommodation {
+  font-size: 130%;
+  list-style-type: square;
+}
+ul.accommodation li {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
 .reception-img {
   width: 100%;
 
+}
+
+section.info p.small, section.info li {
+  font-family: "Helvetica Neue";
 }
 
 img {
@@ -76,14 +89,17 @@ img.sneak-peak-img {
 }
 
 .days-list > li {
-  font-size: 1.5em;
+  /*font-size: 1.5em;*/
+  /*font-size: 130%;*/
+  font-size: 18.2px;
   font-weight: bold;
   margin: 1.5em;
   font-family: 'Special Elite', cursive;
 }
 
 .days-list > li > ul {
-  font-size: 1em;
+  /*font-size: 1em;*/
+  font-size: 18.2px;
   font-weight: normal;
   padding-left: 1em;
 }
